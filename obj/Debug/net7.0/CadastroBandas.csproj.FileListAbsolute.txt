@@ -1,0 +1,14 @@
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\bin\Debug\net7.0\CadastroBandas.exe
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\bin\Debug\net7.0\CadastroBandas.deps.json
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\bin\Debug\net7.0\CadastroBandas.runtimeconfig.json
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\bin\Debug\net7.0\CadastroBandas.dll
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\bin\Debug\net7.0\CadastroBandas.pdb
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\CadastroBandas.GeneratedMSBuildEditorConfig.editorconfig
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\CadastroBandas.AssemblyInfoInputs.cache
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\CadastroBandas.AssemblyInfo.cs
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\CadastroBandas.csproj.CoreCompileInputs.cache
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\CadastroBandas.dll
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\refint\CadastroBandas.dll
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\CadastroBandas.pdb
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\CadastroBandas.genruntimeconfig.cache
+D:\mef\IF\Linguagem I\Semana 7 - Struct\Bandas_Aula\CadastroBandas\obj\Debug\net7.0\ref\CadastroBandas.dll
