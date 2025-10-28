@@ -1,0 +1,4 @@
+Metallica,Rock,5,1
+Molejo,Pagode,100,3
+Skank,Rock,4,1
+System of a down,Rock,6,1

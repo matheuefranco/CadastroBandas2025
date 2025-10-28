@@ -40,10 +40,50 @@ namespace CadastroBandas
             opcao = int.Parse(Console.ReadLine());
             return opcao;
         }
+
+        static void salvarDados(List<Banda> listaBandas, string nomeArquivo)
+        {
+
+            using (StreamWriter writer = new StreamWriter(nomeArquivo))
+            {
+                foreach (Banda b in listaBandas)
+                {
+                    writer.WriteLine($"{b.nome},{b.genero},{b.integrantes},{b.ranking}");
+                }
+            }
+            Console.WriteLine("Dados salvos com sucesso!");
+
+
+        }
+
+        static void carregarDados(List<Banda> listaBandas, string nomeArquivo)
+        {
+            if (File.Exists(nomeArquivo))
+            {
+                string[] linhas = File.ReadAllLines(nomeArquivo);
+                foreach (string linha in linhas)
+                {
+                    string[] campos = linha.Split(',');
+                    Banda novaBanda = new Banda();
+                    novaBanda.nome = campos[0];
+                    novaBanda.genero = campos[1];
+                    novaBanda.integrantes = int.Parse(campos[2]);
+                    novaBanda.ranking = int.Parse(campos[3]);
+                    listaBandas.Add(novaBanda);
+                }
+                Console.WriteLine("Dados carregados com sucesso!");
+            }
+            else
+                Console.WriteLine("Arquivo não encontrado :(");
+
+        }
+
+        
         static void Main()
         {
             List<Banda> listaBandas = new List<Banda>();
             int opcao = 0;
+            carregarDados(listaBandas, "bandas.txt");
             do
             {
                 opcao = menu();
@@ -56,6 +96,7 @@ namespace CadastroBandas
                         mostrarBandas(listaBandas);
                         break;
                     case 0:
+                        salvarDados(listaBandas, "bandas.txt");
                         Console.WriteLine("Até mais ;)");
                         break;
                 }
