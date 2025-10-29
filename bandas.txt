@@ -1,3 +1,3 @@
-Metallica,Rock,5,1
-Molejo,Pagode,100,3
-Skank,Rock,4,1
+Metallica 2025,Metal,4,1
+Megadeth,Metal,6,1
+Menos é mais,Pagode,30,3
